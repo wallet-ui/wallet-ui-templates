@@ -1,0 +1,24 @@
+/tmp
+node_modules
+
+# We only want a top-level `pnpm-lock.yaml` file.
+base/**/package-lock.json
+base/**/pnpm-lock.yaml
+base/**/yarn.lock
+templates/**/package-lock.json
+templates/**/pnpm-lock.yaml
+templates/**/yarn.lock
+
+# Ignore any dist, tmp, or node_modules directories
+base/**/.next
+base/**/.env
+base/**/anchor/target
+base/**/dist
+base/**/node_modules
+base/**/tmp
+templates/**/.next
+templates/**/.env
+templates/**/anchor/target
+templates/**/dist
+templates/**/node_modules
+templates/**/tmp

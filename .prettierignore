@@ -1,0 +1,18 @@
+# Add files here to ignore them from prettier formatting
+/dist
+/coverage
+tmp
+pnpm-lock.yaml
+.next
+
+# Ignore any dist, tmp, or node_modules directories
+base/**/.env
+base/**/anchor/target
+base/**/dist
+base/**/node_modules
+base/**/tmp
+templates/**/.env
+templates/**/anchor/target
+templates/**/dist
+templates/**/node_modules
+templates/**/tmp
