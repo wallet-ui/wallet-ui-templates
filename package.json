@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "pnpm -r build",
     "clean": "rm -rf node_modules && pnpm -r exec rm -rf node_modules",
     "fmt": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
