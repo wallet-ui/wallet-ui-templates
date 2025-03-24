@@ -20,3 +20,13 @@ export function AppProviders({ children }: { children: React.ReactNode }) {
     </WalletUi>
   )
 }
+
+declare global {
+  interface BigInt {
+    toJSON(): string
+  }
+}
+
+BigInt.prototype.toJSON = function () {
+  return this.toString()
+}

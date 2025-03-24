@@ -1,3 +1,4 @@
+'use client'
 import { UiWallet, useWalletUi } from '@wallet-ui/react'
 import React from 'react'
 

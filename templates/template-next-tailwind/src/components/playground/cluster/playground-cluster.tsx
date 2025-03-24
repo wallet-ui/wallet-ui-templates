@@ -1,3 +1,4 @@
+'use client'
 import { UiCard } from '../../ui/'
 import { PlaygroundClusterDropdown } from './playground-cluster-dropdown'
 import { useWalletUiCluster } from '@wallet-ui/react'

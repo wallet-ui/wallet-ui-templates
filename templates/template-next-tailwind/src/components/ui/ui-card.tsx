@@ -1,3 +1,4 @@
+'use client'
 import { BaseButton } from '@wallet-ui/react'
 import * as React from 'react'
 import { UiGroup } from './ui-group'

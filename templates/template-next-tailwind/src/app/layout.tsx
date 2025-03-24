@@ -11,7 +11,7 @@ const footer = (
   </a>
 )
 const links: UiLayoutHeaderLink[] = [
-  { label: 'Account', to: '/account' },
+  { label: 'Account', to: '/' },
   { label: 'Client', to: '/client' },
   { label: 'Cluster', to: '/cluster' },
 ]

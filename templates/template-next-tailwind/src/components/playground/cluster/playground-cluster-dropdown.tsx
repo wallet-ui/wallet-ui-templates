@@ -1,3 +1,4 @@
+'use client'
 import { WalletUiClusterDropdown } from '@wallet-ui/react'
 import { UiGroup, UiPanel, UiSizes } from '../../ui/'
 

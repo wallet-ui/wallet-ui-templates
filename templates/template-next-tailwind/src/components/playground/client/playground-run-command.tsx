@@ -1,3 +1,4 @@
+'use client'
 import { BaseButton } from '@wallet-ui/react'
 import { useState } from 'react'
 import { UiPanel } from '../../ui'
