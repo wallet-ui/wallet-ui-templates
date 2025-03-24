@@ -78,7 +78,7 @@ export function PlaygroundSignAndSendTx({ account }: { account: UiWalletAccount 
       setSolQuantityString('')
     } catch (e) {
       setLastSignature(undefined)
-      setError(e as any)
+      setError(e as unknown)
     } finally {
       setIsSendingTransaction(false)
     }

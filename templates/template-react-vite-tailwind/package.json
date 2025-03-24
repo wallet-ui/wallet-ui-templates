@@ -13,8 +13,8 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.0.15",
     "@tanstack/react-query": "^5.69.0",
-    "@wallet-ui/react": "1.1.0-canary-20250324014138",
-    "@wallet-ui/tailwind": "1.1.0-canary-20250324014138",
+    "@wallet-ui/react": "canary",
+    "@wallet-ui/tailwind": "canary",
     "gill": "latest",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "@tanstack/react-query": "^5.69.0",
-    "@wallet-ui/react": "1.1.0-canary-20250324014138",
-    "@wallet-ui/tailwind": "1.1.0-canary-20250324014138",
+    "@wallet-ui/react": "canary",
+    "@wallet-ui/tailwind": "canary",
     "gill": "^0.8.0",
     "next": "15.2.3",
     "react": "^19.0.0",

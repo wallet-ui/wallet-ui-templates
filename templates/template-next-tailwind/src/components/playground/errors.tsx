@@ -20,7 +20,7 @@ export function getErrorMessage(err: unknown, fallbackMessage: React.ReactNode):
     return (
       <UiStack>
         <p>
-          The wallet '{err.context.walletName}' (
+          The wallet &apos;{err.context.walletName}&apos; (
           {err.context.supportedChains.sort().map((chain, ii, { length }) => (
             <React.Fragment key={chain}>
               <code>{chain}</code>

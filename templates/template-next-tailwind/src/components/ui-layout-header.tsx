@@ -1,7 +1,14 @@
 'use client'
 import Link from 'next/link'
 import { UiLogoLink } from './ui-logo-link'
-import { WalletUiClusterDropdown, WalletUiDropdown } from '@wallet-ui/react'
+import dynamic from 'next/dynamic'
+
+const WalletUiClusterDropdown = dynamic(() => import('@wallet-ui/react').then((mod) => mod.WalletUiClusterDropdown), {
+  ssr: false,
+})
+const WalletUiDropdown = dynamic(() => import('@wallet-ui/react').then((mod) => mod.WalletUiDropdown), {
+  ssr: false,
+})
 
 export interface UiLayoutHeaderLink {
   label: string
