@@ -1,5 +1,6 @@
 import { Link } from 'react-router'
 import { UiLogoLink } from './ui-logo-link'
+import { WalletUiClusterDropdown, WalletUiDropdown } from '@wallet-ui/react'
 
 export interface UiLayoutHeaderLink {
   label: string
@@ -19,10 +20,9 @@ export function UiLayoutHeader({ links, name }: { links: UiLayoutHeaderLink[]; n
           ))}
         </nav>
       </div>
-      <div>
-        <a href="https://github.com/wallet-ui/wallet-ui" target="_blank" rel="noreferrer">
-          <img src="https://img.shields.io/github/stars/wallet-ui/wallet-ui?style=social" alt="GitHub Repo stars" />
-        </a>
+      <div className="flex gap-4">
+        <WalletUiDropdown size="sm" />
+        <WalletUiClusterDropdown size="sm" />
       </div>
     </header>
   )

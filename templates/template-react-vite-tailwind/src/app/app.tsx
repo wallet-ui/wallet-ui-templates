@@ -10,8 +10,9 @@ const footer = (
   </a>
 )
 const links: UiLayoutHeaderLink[] = [
-  { label: 'Home', to: '/' },
-  { label: 'About', to: '/about' },
+  { label: 'Account', to: '/' },
+  { label: 'Client', to: '/client' },
+  { label: 'Cluster', to: '/cluster' },
 ]
 
 export function App() {

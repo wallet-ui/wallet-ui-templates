@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { UiLogo } from '@/components/ui-logo'
+import { UiLogo } from './ui-logo'
 
 export function UiLogoLink({ href = '/', name }: { href?: string; name: string }) {
   return (

@@ -1,10 +1,12 @@
 import { useRoutes } from 'react-router'
-import { RouteHome } from './routes/route-home.tsx'
-import { RouteAbout } from './routes/route-about.tsx'
+import { PlaygroundAccount } from '../components/playground/account/playground-account.tsx'
+import { PlaygroundClient } from '../components/playground/client/playground-client.tsx'
+import { PlaygroundCluster } from '../components/playground/cluster/playground-cluster.tsx'
 
 export function AppRoutes() {
   return useRoutes([
-    { path: '/', element: <RouteHome /> },
-    { path: '/about', element: <RouteAbout /> },
+    { path: '/', element: <PlaygroundAccount /> },
+    { path: '/client', element: <PlaygroundClient /> },
+    { path: '/cluster', element: <PlaygroundCluster /> },
   ])
 }
