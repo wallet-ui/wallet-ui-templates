@@ -1,3 +1,4 @@
+'use client'
 import { UiGroup, UiPanel, UiStack } from '../../ui'
 import { WalletUiClusterDropdown, WalletUiDropdown } from '@wallet-ui/react'
 import { UiGuardCluster } from '../../ui-guard-cluster.tsx'

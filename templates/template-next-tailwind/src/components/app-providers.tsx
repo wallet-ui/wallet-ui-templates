@@ -1,5 +1,5 @@
 'use client'
-
+import '@wallet-ui/tailwind/index.css'
 import { ReactQueryProvider } from './react-query-provider'
 import {
   createSolanaDevnet,

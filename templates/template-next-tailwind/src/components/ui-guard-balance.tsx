@@ -1,5 +1,5 @@
 import React from 'react'
-import {useAccountBalance} from '../hooks/use-account-balance.tsx'
+import { useAccountBalance } from '../hooks/use-account-balance.tsx'
 
 /**
  * Guards the account by checking if the account has a balance greater than 0.

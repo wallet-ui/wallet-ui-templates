@@ -1,6 +1,6 @@
-import {useWalletUi, useWalletUiCluster} from '@wallet-ui/react'
+import { useWalletUi, useWalletUiCluster } from '@wallet-ui/react'
 import React from 'react'
-import {useQuery} from '@tanstack/react-query'
+import { useQuery } from '@tanstack/react-query'
 
 /**
  * Guards the cluster by checking if the client is connected to the cluster.

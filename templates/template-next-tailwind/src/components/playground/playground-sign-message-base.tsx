@@ -1,3 +1,4 @@
+'use client'
 import { BaseButton, useWalletUiCluster } from '@wallet-ui/react'
 import type { ReadonlyUint8Array } from 'gill'
 import { useState } from 'react'

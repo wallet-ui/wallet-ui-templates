@@ -11,8 +11,9 @@ const footer = (
   </a>
 )
 const links: UiLayoutHeaderLink[] = [
-  { label: 'Home', to: '/' },
-  { label: 'About', to: '/about' },
+  { label: 'Account', to: '/account' },
+  { label: 'Client', to: '/client' },
+  { label: 'Cluster', to: '/cluster' },
 ]
 
 export const metadata: Metadata = {

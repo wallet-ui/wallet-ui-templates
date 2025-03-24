@@ -1,3 +1,4 @@
+'use client'
 import { BaseButton, type UiWallet, type UiWalletAccount, useSignIn, WalletUiIcon } from '@wallet-ui/react'
 import React, { useCallback, useState } from 'react'
 

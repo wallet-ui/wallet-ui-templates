@@ -1,3 +1,4 @@
+'use client'
 import { useWalletUiAccount } from '@wallet-ui/react'
 
 import { ErrorBoundary } from 'react-error-boundary'

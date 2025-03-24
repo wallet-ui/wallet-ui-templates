@@ -1,4 +1,4 @@
-import {useWalletUiAccount, WalletUiAccountInfo, WalletUiDropdown} from '@wallet-ui/react'
+import { useWalletUiAccount, WalletUiAccountInfo, WalletUiDropdown } from '@wallet-ui/react'
 import React from 'react'
 
 /**
