@@ -10,23 +10,24 @@
     "start": "next start"
   },
   "dependencies": {
-    "@tanstack/react-query": "^5.69.0",
+    "@tanstack/react-query": "^5.74.3",
     "@wallet-ui/react": "canary",
     "@wallet-ui/tailwind": "canary",
-    "gill": "^0.8.0",
-    "next": "15.2.3",
+    "gill": "latest",
+    "next": "15.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-error-boundary": "^5.0.0"
+    "react-error-boundary": "^5.0.0",
+    "ws": "^8.18.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/node": "^22",
+    "@types/react": "^19.0.14",
+    "@types/react-dom": "^19.0.6",
     "eslint": "^9",
-    "eslint-config-next": "15.2.3",
+    "eslint-config-next": "15.3.0",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

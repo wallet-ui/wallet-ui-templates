@@ -1,9 +1,9 @@
 import Link from 'next/link'
 import { UiLogo } from './ui-logo'
 
-export function UiLogoLink({ href = '/', name }: { href?: string; name: string }) {
+export function UiLogoLink({ to = '/', name }: { to?: string; name: string }) {
   return (
-    <Link href={href}>
+    <Link href={to}>
       <UiLogo name={name} />
     </Link>
   )
