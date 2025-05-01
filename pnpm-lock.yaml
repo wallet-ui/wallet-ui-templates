@@ -19,13 +19,13 @@ importers:
         version: 5.74.3(react@19.1.0)
       '@wallet-ui/react':
         specifier: canary
-        version: 1.1.0-canary-20250415034938(fastestsmallesttextencoderdecoder@1.0.22)(gill@0.8.2(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
+        version: 1.1.0-canary-20250415034938(fastestsmallesttextencoderdecoder@1.0.22)(gill@0.8.3(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
       '@wallet-ui/tailwind':
         specifier: canary
         version: 1.1.0-canary-20250415034938(tailwindcss@4.1.4)
       gill:
         specifier: latest
-        version: 0.8.2(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1)
+        version: 0.8.3(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1)
       next:
         specifier: 15.3.0
         version: 15.3.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -47,7 +47,7 @@ importers:
         version: 3.3.1
       '@tailwindcss/postcss':
         specifier: ^4
-        version: 4.0.15
+        version: 4.1.5
       '@types/node':
         specifier: ^22
         version: 22.14.1
@@ -80,13 +80,13 @@ importers:
         version: 5.74.3(react@19.1.0)
       '@wallet-ui/react':
         specifier: canary
-        version: 1.1.0-canary-20250415034938(fastestsmallesttextencoderdecoder@1.0.22)(gill@0.8.2(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
+        version: 1.1.0-canary-20250415034938(fastestsmallesttextencoderdecoder@1.0.22)(gill@0.8.3(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
       '@wallet-ui/tailwind':
         specifier: canary
         version: 1.1.0-canary-20250415034938(tailwindcss@4.1.4)
       gill:
         specifier: latest
-        version: 0.8.2(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1)
+        version: 0.8.3(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1)
       react:
         specifier: ^19.1.0
         version: 19.1.0
@@ -1029,17 +1029,11 @@ packages:
   '@swc/helpers@0.5.15':
     resolution: {integrity: sha512-JQ5TuMi45Owi4/BIMAJBoSQoOJu12oOk/gADqlcUL9JEdHB8vyjUSsxqeNXnmXHjYKMi2WcYtezGEEhqUI/E2g==}
 
-  '@tailwindcss/node@4.0.15':
-    resolution: {integrity: sha512-IODaJjNmiasfZX3IoS+4Em3iu0fD2HS0/tgrnkYfW4hyUor01Smnr5eY3jc4rRgaTDrJlDmBTHbFO0ETTDaxWA==}
-
   '@tailwindcss/node@4.1.4':
     resolution: {integrity: sha512-MT5118zaiO6x6hNA04OWInuAiP1YISXql8Z+/Y8iisV5nuhM8VXlyhRuqc2PEviPszcXI66W44bCIk500Oolhw==}
 
-  '@tailwindcss/oxide-android-arm64@4.0.15':
-    resolution: {integrity: sha512-EBuyfSKkom7N+CB3A+7c0m4+qzKuiN0WCvzPvj5ZoRu4NlQadg/mthc1tl5k9b5ffRGsbDvP4k21azU4VwVk3Q==}
-    engines: {node: '>= 10'}
-    cpu: [arm64]
-    os: [android]
+  '@tailwindcss/node@4.1.5':
+    resolution: {integrity: sha512-CBhSWo0vLnWhXIvpD0qsPephiaUYfHUX3U9anwDaHZAeuGpTiB3XmsxPAN6qX7bFhipyGBqOa1QYQVVhkOUGxg==}
 
   '@tailwindcss/oxide-android-arm64@4.1.4':
     resolution: {integrity: sha512-xMMAe/SaCN/vHfQYui3fqaBDEXMu22BVwQ33veLc8ep+DNy7CWN52L+TTG9y1K397w9nkzv+Mw+mZWISiqhmlA==}
@@ -1047,11 +1041,11 @@ packages:
     cpu: [arm64]
     os: [android]
 
-  '@tailwindcss/oxide-darwin-arm64@4.0.15':
-    resolution: {integrity: sha512-ObVAnEpLepMhV9VoO0JSit66jiN5C4YCqW3TflsE9boo2Z7FIjV80RFbgeL2opBhtxbaNEDa6D0/hq/EP03kgQ==}
+  '@tailwindcss/oxide-android-arm64@4.1.5':
+    resolution: {integrity: sha512-LVvM0GirXHED02j7hSECm8l9GGJ1RfgpWCW+DRn5TvSaxVsv28gRtoL4aWKGnXqwvI3zu1GABeDNDVZeDPOQrw==}
     engines: {node: '>= 10'}
     cpu: [arm64]
-    os: [darwin]
+    os: [android]
 
   '@tailwindcss/oxide-darwin-arm64@4.1.4':
     resolution: {integrity: sha512-JGRj0SYFuDuAGilWFBlshcexev2hOKfNkoX+0QTksKYq2zgF9VY/vVMq9m8IObYnLna0Xlg+ytCi2FN2rOL0Sg==}
@@ -1059,10 +1053,10 @@ packages:
     cpu: [arm64]
     os: [darwin]
 
-  '@tailwindcss/oxide-darwin-x64@4.0.15':
-    resolution: {integrity: sha512-IElwoFhUinOr9MyKmGTPNi1Rwdh68JReFgYWibPWTGuevkHkLWKEflZc2jtI5lWZ5U9JjUnUfnY43I4fEXrc4g==}
+  '@tailwindcss/oxide-darwin-arm64@4.1.5':
+    resolution: {integrity: sha512-//TfCA3pNrgnw4rRJOqavW7XUk8gsg9ddi8cwcsWXp99tzdBAZW0WXrD8wDyNbqjW316Pk2hiN/NJx/KWHl8oA==}
     engines: {node: '>= 10'}
-    cpu: [x64]
+    cpu: [arm64]
     os: [darwin]
 
   '@tailwindcss/oxide-darwin-x64@4.1.4':
@@ -1071,11 +1065,11 @@ packages:
     cpu: [x64]
     os: [darwin]
 
-  '@tailwindcss/oxide-freebsd-x64@4.0.15':
-    resolution: {integrity: sha512-6BLLqyx7SIYRBOnTZ8wgfXANLJV5TQd3PevRJZp0vn42eO58A2LykRKdvL1qyPfdpmEVtF+uVOEZ4QTMqDRAWA==}
+  '@tailwindcss/oxide-darwin-x64@4.1.5':
+    resolution: {integrity: sha512-XQorp3Q6/WzRd9OalgHgaqgEbjP3qjHrlSUb5k1EuS1Z9NE9+BbzSORraO+ecW432cbCN7RVGGL/lSnHxcd+7Q==}
     engines: {node: '>= 10'}
     cpu: [x64]
-    os: [freebsd]
+    os: [darwin]
 
   '@tailwindcss/oxide-freebsd-x64@4.1.4':
     resolution: {integrity: sha512-VHxAqxqdghM83HslPhRsNhHo91McsxRJaEnShJOMu8mHmEj9Ig7ToHJtDukkuLWLzLboh2XSjq/0zO6wgvykNA==}
@@ -1083,11 +1077,11 @@ packages:
     cpu: [x64]
     os: [freebsd]
 
-  '@tailwindcss/oxide-linux-arm-gnueabihf@4.0.15':
-    resolution: {integrity: sha512-Zy63EVqO9241Pfg6G0IlRIWyY5vNcWrL5dd2WAKVJZRQVeolXEf1KfjkyeAAlErDj72cnyXObEZjMoPEKHpdNw==}
+  '@tailwindcss/oxide-freebsd-x64@4.1.5':
+    resolution: {integrity: sha512-bPrLWbxo8gAo97ZmrCbOdtlz/Dkuy8NK97aFbVpkJ2nJ2Jo/rsCbu0TlGx8joCuA3q6vMWTSn01JY46iwG+clg==}
     engines: {node: '>= 10'}
-    cpu: [arm]
-    os: [linux]
+    cpu: [x64]
+    os: [freebsd]
 
   '@tailwindcss/oxide-linux-arm-gnueabihf@4.1.4':
     resolution: {integrity: sha512-OTU/m/eV4gQKxy9r5acuesqaymyeSCnsx1cFto/I1WhPmi5HDxX1nkzb8KYBiwkHIGg7CTfo/AcGzoXAJBxLfg==}
@@ -1095,10 +1089,10 @@ packages:
     cpu: [arm]
     os: [linux]
 
-  '@tailwindcss/oxide-linux-arm64-gnu@4.0.15':
-    resolution: {integrity: sha512-2NemGQeaTbtIp1Z2wyerbVEJZTkAWhMDOhhR5z/zJ75yMNf8yLnE+sAlyf6yGDNr+1RqvWrRhhCFt7i0CIxe4Q==}
+  '@tailwindcss/oxide-linux-arm-gnueabihf@4.1.5':
+    resolution: {integrity: sha512-1gtQJY9JzMAhgAfvd/ZaVOjh/Ju/nCoAsvOVJenWZfs05wb8zq+GOTnZALWGqKIYEtyNpCzvMk+ocGpxwdvaVg==}
     engines: {node: '>= 10'}
-    cpu: [arm64]
+    cpu: [arm]
     os: [linux]
 
   '@tailwindcss/oxide-linux-arm64-gnu@4.1.4':
@@ -1107,8 +1101,8 @@ packages:
     cpu: [arm64]
     os: [linux]
 
-  '@tailwindcss/oxide-linux-arm64-musl@4.0.15':
-    resolution: {integrity: sha512-342GVnhH/6PkVgKtEzvNVuQ4D+Q7B7qplvuH20Cfz9qEtydG6IQczTZ5IT4JPlh931MG1NUCVxg+CIorr1WJyw==}
+  '@tailwindcss/oxide-linux-arm64-gnu@4.1.5':
+    resolution: {integrity: sha512-dtlaHU2v7MtdxBXoqhxwsWjav7oim7Whc6S9wq/i/uUMTWAzq/gijq1InSgn2yTnh43kR+SFvcSyEF0GCNu1PQ==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
@@ -1119,10 +1113,10 @@ packages:
     cpu: [arm64]
     os: [linux]
 
-  '@tailwindcss/oxide-linux-x64-gnu@4.0.15':
-    resolution: {integrity: sha512-g76GxlKH124RuGqacCEFc2nbzRl7bBrlC8qDQMiUABkiifDRHOIUjgKbLNG4RuR9hQAD/MKsqZ7A8L08zsoBrw==}
+  '@tailwindcss/oxide-linux-arm64-musl@4.1.5':
+    resolution: {integrity: sha512-fg0F6nAeYcJ3CriqDT1iVrqALMwD37+sLzXs8Rjy8Z1ZHshJoYceodfyUwGJEsQoTyWbliFNRs2wMQNXtT7MVA==}
     engines: {node: '>= 10'}
-    cpu: [x64]
+    cpu: [arm64]
     os: [linux]
 
   '@tailwindcss/oxide-linux-x64-gnu@4.1.4':
@@ -1131,14 +1125,20 @@ packages:
     cpu: [x64]
     os: [linux]
 
-  '@tailwindcss/oxide-linux-x64-musl@4.0.15':
-    resolution: {integrity: sha512-Gg/Y1XrKEvKpq6WeNt2h8rMIKOBj/W3mNa5NMvkQgMC7iO0+UNLrYmt6zgZufht66HozNpn+tJMbbkZ5a3LczA==}
+  '@tailwindcss/oxide-linux-x64-gnu@4.1.5':
+    resolution: {integrity: sha512-SO+F2YEIAHa1AITwc8oPwMOWhgorPzzcbhWEb+4oLi953h45FklDmM8dPSZ7hNHpIk9p/SCZKUYn35t5fjGtHA==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
 
   '@tailwindcss/oxide-linux-x64-musl@4.1.4':
     resolution: {integrity: sha512-v+mxVgH2kmur/X5Mdrz9m7TsoVjbdYQT0b4Z+dr+I4RvreCNXyCFELZL/DO0M1RsidZTrm6O1eMnV6zlgEzTMQ==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+
+  '@tailwindcss/oxide-linux-x64-musl@4.1.5':
+    resolution: {integrity: sha512-6UbBBplywkk/R+PqqioskUeXfKcBht3KU7juTi1UszJLx0KPXUo10v2Ok04iBJIaDPkIFkUOVboXms5Yxvaz+g==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
@@ -1155,11 +1155,17 @@ packages:
       - '@emnapi/wasi-threads'
       - tslib
 
-  '@tailwindcss/oxide-win32-arm64-msvc@4.0.15':
-    resolution: {integrity: sha512-7QtSSJwYZ7ZK1phVgcNZpuf7c7gaCj8Wb0xjliligT5qCGCp79OV2n3SJummVZdw4fbTNKUOYMO7m1GinppZyA==}
-    engines: {node: '>= 10'}
-    cpu: [arm64]
-    os: [win32]
+  '@tailwindcss/oxide-wasm32-wasi@4.1.5':
+    resolution: {integrity: sha512-hwALf2K9FHuiXTPqmo1KeOb83fTRNbe9r/Ixv9ZNQ/R24yw8Ge1HOWDDgTdtzntIaIUJG5dfXCf4g9AD4RiyhQ==}
+    engines: {node: '>=14.0.0'}
+    cpu: [wasm32]
+    bundledDependencies:
+      - '@napi-rs/wasm-runtime'
+      - '@emnapi/core'
+      - '@emnapi/runtime'
+      - '@tybys/wasm-util'
+      - '@emnapi/wasi-threads'
+      - tslib
 
   '@tailwindcss/oxide-win32-arm64-msvc@4.1.4':
     resolution: {integrity: sha512-VlnhfilPlO0ltxW9/BgfLI5547PYzqBMPIzRrk4W7uupgCt8z6Trw/tAj6QUtF2om+1MH281Pg+HHUJoLesmng==}
@@ -1167,10 +1173,10 @@ packages:
     cpu: [arm64]
     os: [win32]
 
-  '@tailwindcss/oxide-win32-x64-msvc@4.0.15':
-    resolution: {integrity: sha512-JQ5H+5MLhOjpgNp6KomouE0ZuKmk3hO5h7/ClMNAQ8gZI2zkli3IH8ZqLbd2DVfXDbdxN2xvooIEeIlkIoSCqw==}
+  '@tailwindcss/oxide-win32-arm64-msvc@4.1.5':
+    resolution: {integrity: sha512-oDKncffWzaovJbkuR7/OTNFRJQVdiw/n8HnzaCItrNQUeQgjy7oUiYpsm9HUBgpmvmDpSSbGaCa2Evzvk3eFmA==}
     engines: {node: '>= 10'}
-    cpu: [x64]
+    cpu: [arm64]
     os: [win32]
 
   '@tailwindcss/oxide-win32-x64-msvc@4.1.4':
@@ -1179,16 +1185,22 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@tailwindcss/oxide@4.0.15':
-    resolution: {integrity: sha512-e0uHrKfPu7JJGMfjwVNyt5M0u+OP8kUmhACwIRlM+JNBuReDVQ63yAD1NWe5DwJtdaHjugNBil76j+ks3zlk6g==}
+  '@tailwindcss/oxide-win32-x64-msvc@4.1.5':
+    resolution: {integrity: sha512-WiR4dtyrFdbb+ov0LK+7XsFOsG+0xs0PKZKkt41KDn9jYpO7baE3bXiudPVkTqUEwNfiglCygQHl2jklvSBi7Q==}
     engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [win32]
 
   '@tailwindcss/oxide@4.1.4':
     resolution: {integrity: sha512-p5wOpXyOJx7mKh5MXh5oKk+kqcz8T+bA3z/5VWWeQwFrmuBItGwz8Y2CHk/sJ+dNb9B0nYFfn0rj/cKHZyjahQ==}
     engines: {node: '>= 10'}
 
-  '@tailwindcss/postcss@4.0.15':
-    resolution: {integrity: sha512-qyrpoDKIO7wzkRbKCvGLo7gXRjT9/Njf7ZJiJhG4njrfZkvOhjwnaHpYbpxYeDysEg+9pB1R4jcd+vQ7ZUDsmQ==}
+  '@tailwindcss/oxide@4.1.5':
+    resolution: {integrity: sha512-1n4br1znquEvyW/QuqMKQZlBen+jxAbvyduU87RS8R3tUSvByAkcaMTkJepNIrTlYhD+U25K4iiCIxE6BGdRYA==}
+    engines: {node: '>= 10'}
+
+  '@tailwindcss/postcss@4.1.5':
+    resolution: {integrity: sha512-5lAC2/pzuyfhsFgk6I58HcNy6vPK3dV/PoPxSDuOTVbDvCddYHzHiJZZInGIY0venvzzfrTEUAXJFULAfFmObg==}
 
   '@tailwindcss/vite@4.1.4':
     resolution: {integrity: sha512-4UQeMrONbvrsXKXXp/uxmdEN5JIJ9RkH7YVzs6AMxC/KC1+Np7WZBaNIco7TEjlkthqxZbt8pU/ipD+hKjm80A==}
@@ -1688,6 +1700,10 @@ packages:
     resolution: {integrity: sha512-bwy0MGW55bG41VqxxypOsdSdGqLwXPI/focwgTYCFMbdUiBAxLg9CFzG08sz2aqzknwiX7Hkl0bQENjg8iLByw==}
     engines: {node: '>=8'}
 
+  detect-libc@2.0.4:
+    resolution: {integrity: sha512-3UDv+G9CsCKO1WKMGw9fwq/SWJYbI0c5Y7LU1AXYoDdbhE2AHQ6N6Nb34sG8Fj7T5APy8qXDCKuuIHd1BR0tVA==}
+    engines: {node: '>=8'}
+
   doctrine@2.1.0:
     resolution: {integrity: sha512-35mSku4ZXK0vfCuHEDAwt55dg2jNajHZ1odvF+8SSr82EsZY4QmXfuWso8oEd8zRhVObSN18aM0CjSdoBX7zIw==}
     engines: {node: '>=0.10.0'}
@@ -1960,8 +1976,8 @@ packages:
   get-tsconfig@4.10.0:
     resolution: {integrity: sha512-kGzZ3LWWQcGIAmg6iWvXn0ei6WDtV26wzHRMwDSzmAbcXrTEXxHy6IehI6/4eT6VRKyMP1eF1VqwrVUmE/LR7A==}
 
-  gill@0.8.2:
-    resolution: {integrity: sha512-256JYJ3tRi0PO+2/1+pn9qT3Ph8FpG5IRqyLsIfaxV75XDvo4WR5DzgV/wPfWhfXg55Xpw3ThO5kwwY6RcgNXQ==}
+  gill@0.8.3:
+    resolution: {integrity: sha512-jaQCQI/S5WI5ZV/LDSMMs8CNq5LFiOmU5ke5Z2RfwDMTH6WXV8N/xfuCs02hl8rAsdv/nk0hy9Lrhi9h6T+7rQ==}
     engines: {node: '>=20.18.0'}
     peerDependencies:
       typescript: '>=5'
@@ -2523,6 +2539,7 @@ packages:
 
   rspack-resolver@1.2.2:
     resolution: {integrity: sha512-Fwc19jMBA3g+fxDJH2B4WxwZjE0VaaOL7OX/A4Wn5Zv7bOD/vyPZhzXfaO73Xc2GAlfi96g5fGUa378WbIGfFw==}
+    deprecated: Please migrate to the brand new `@rspack/resolver` or `unrs-resolver` instead
 
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
@@ -2660,11 +2677,11 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  tailwindcss@4.0.15:
-    resolution: {integrity: sha512-6ZMg+hHdMJpjpeCCFasX7K+U615U9D+7k5/cDK/iRwl6GptF24+I/AbKgOnXhVKePzrEyIXutLv36n4cRsq3Sg==}
-
   tailwindcss@4.1.4:
     resolution: {integrity: sha512-1ZIUqtPITFbv/DxRmDr5/agPqJwF69d24m9qmM1939TJehgY539CtzeZRjbLt5G6fSy/7YqqYsfvoTEw9xUI2A==}
+
+  tailwindcss@4.1.5:
+    resolution: {integrity: sha512-nYtSPfWGDiWgCkwQG/m+aX83XCwf62sBgg3bIlNiiOcggnS1x3uVRDAuyelBFL+vJdOPPCGElxv9DjHJjRHiVA==}
 
   tapable@2.2.1:
     resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==}
@@ -3716,12 +3733,6 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@tailwindcss/node@4.0.15':
-    dependencies:
-      enhanced-resolve: 5.18.1
-      jiti: 2.4.2
-      tailwindcss: 4.0.15
-
   '@tailwindcss/node@4.1.4':
     dependencies:
       enhanced-resolve: 5.18.1
@@ -3729,88 +3740,84 @@ snapshots:
       lightningcss: 1.29.2
       tailwindcss: 4.1.4
 
-  '@tailwindcss/oxide-android-arm64@4.0.15':
-    optional: true
+  '@tailwindcss/node@4.1.5':
+    dependencies:
+      enhanced-resolve: 5.18.1
+      jiti: 2.4.2
+      lightningcss: 1.29.2
+      tailwindcss: 4.1.5
 
   '@tailwindcss/oxide-android-arm64@4.1.4':
     optional: true
 
-  '@tailwindcss/oxide-darwin-arm64@4.0.15':
+  '@tailwindcss/oxide-android-arm64@4.1.5':
     optional: true
 
   '@tailwindcss/oxide-darwin-arm64@4.1.4':
     optional: true
 
-  '@tailwindcss/oxide-darwin-x64@4.0.15':
+  '@tailwindcss/oxide-darwin-arm64@4.1.5':
     optional: true
 
   '@tailwindcss/oxide-darwin-x64@4.1.4':
     optional: true
 
-  '@tailwindcss/oxide-freebsd-x64@4.0.15':
+  '@tailwindcss/oxide-darwin-x64@4.1.5':
     optional: true
 
   '@tailwindcss/oxide-freebsd-x64@4.1.4':
     optional: true
 
-  '@tailwindcss/oxide-linux-arm-gnueabihf@4.0.15':
+  '@tailwindcss/oxide-freebsd-x64@4.1.5':
     optional: true
 
   '@tailwindcss/oxide-linux-arm-gnueabihf@4.1.4':
     optional: true
 
-  '@tailwindcss/oxide-linux-arm64-gnu@4.0.15':
+  '@tailwindcss/oxide-linux-arm-gnueabihf@4.1.5':
     optional: true
 
   '@tailwindcss/oxide-linux-arm64-gnu@4.1.4':
     optional: true
 
-  '@tailwindcss/oxide-linux-arm64-musl@4.0.15':
+  '@tailwindcss/oxide-linux-arm64-gnu@4.1.5':
     optional: true
 
   '@tailwindcss/oxide-linux-arm64-musl@4.1.4':
     optional: true
 
-  '@tailwindcss/oxide-linux-x64-gnu@4.0.15':
+  '@tailwindcss/oxide-linux-arm64-musl@4.1.5':
     optional: true
 
   '@tailwindcss/oxide-linux-x64-gnu@4.1.4':
     optional: true
 
-  '@tailwindcss/oxide-linux-x64-musl@4.0.15':
+  '@tailwindcss/oxide-linux-x64-gnu@4.1.5':
     optional: true
 
   '@tailwindcss/oxide-linux-x64-musl@4.1.4':
     optional: true
 
+  '@tailwindcss/oxide-linux-x64-musl@4.1.5':
+    optional: true
+
   '@tailwindcss/oxide-wasm32-wasi@4.1.4':
     optional: true
 
-  '@tailwindcss/oxide-win32-arm64-msvc@4.0.15':
+  '@tailwindcss/oxide-wasm32-wasi@4.1.5':
     optional: true
 
   '@tailwindcss/oxide-win32-arm64-msvc@4.1.4':
     optional: true
 
-  '@tailwindcss/oxide-win32-x64-msvc@4.0.15':
+  '@tailwindcss/oxide-win32-arm64-msvc@4.1.5':
     optional: true
 
   '@tailwindcss/oxide-win32-x64-msvc@4.1.4':
     optional: true
 
-  '@tailwindcss/oxide@4.0.15':
-    optionalDependencies:
-      '@tailwindcss/oxide-android-arm64': 4.0.15
-      '@tailwindcss/oxide-darwin-arm64': 4.0.15
-      '@tailwindcss/oxide-darwin-x64': 4.0.15
-      '@tailwindcss/oxide-freebsd-x64': 4.0.15
-      '@tailwindcss/oxide-linux-arm-gnueabihf': 4.0.15
-      '@tailwindcss/oxide-linux-arm64-gnu': 4.0.15
-      '@tailwindcss/oxide-linux-arm64-musl': 4.0.15
-      '@tailwindcss/oxide-linux-x64-gnu': 4.0.15
-      '@tailwindcss/oxide-linux-x64-musl': 4.0.15
-      '@tailwindcss/oxide-win32-arm64-msvc': 4.0.15
-      '@tailwindcss/oxide-win32-x64-msvc': 4.0.15
+  '@tailwindcss/oxide-win32-x64-msvc@4.1.5':
+    optional: true
 
   '@tailwindcss/oxide@4.1.4':
     optionalDependencies:
@@ -3827,14 +3834,28 @@ snapshots:
       '@tailwindcss/oxide-win32-arm64-msvc': 4.1.4
       '@tailwindcss/oxide-win32-x64-msvc': 4.1.4
 
-  '@tailwindcss/postcss@4.0.15':
+  '@tailwindcss/oxide@4.1.5':
+    optionalDependencies:
+      '@tailwindcss/oxide-android-arm64': 4.1.5
+      '@tailwindcss/oxide-darwin-arm64': 4.1.5
+      '@tailwindcss/oxide-darwin-x64': 4.1.5
+      '@tailwindcss/oxide-freebsd-x64': 4.1.5
+      '@tailwindcss/oxide-linux-arm-gnueabihf': 4.1.5
+      '@tailwindcss/oxide-linux-arm64-gnu': 4.1.5
+      '@tailwindcss/oxide-linux-arm64-musl': 4.1.5
+      '@tailwindcss/oxide-linux-x64-gnu': 4.1.5
+      '@tailwindcss/oxide-linux-x64-musl': 4.1.5
+      '@tailwindcss/oxide-wasm32-wasi': 4.1.5
+      '@tailwindcss/oxide-win32-arm64-msvc': 4.1.5
+      '@tailwindcss/oxide-win32-x64-msvc': 4.1.5
+
+  '@tailwindcss/postcss@4.1.5':
     dependencies:
       '@alloc/quick-lru': 5.2.0
-      '@tailwindcss/node': 4.0.15
-      '@tailwindcss/oxide': 4.0.15
-      lightningcss: 1.29.2
+      '@tailwindcss/node': 4.1.5
+      '@tailwindcss/oxide': 4.1.5
       postcss: 8.5.3
-      tailwindcss: 4.0.15
+      tailwindcss: 4.1.5
 
   '@tailwindcss/vite@4.1.4(vite@6.2.6(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2))':
     dependencies:
@@ -4098,24 +4119,24 @@ snapshots:
     dependencies:
       '@wallet-standard/base': 1.1.0
 
-  '@wallet-ui/core@1.1.0-canary-20250415034938(gill@0.8.2(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1))':
+  '@wallet-ui/core@1.1.0-canary-20250415034938(gill@0.8.3(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1))':
     dependencies:
       '@nanostores/persistent': 1.0.0(nanostores@1.0.1)
-      gill: 0.8.2(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1)
+      gill: 0.8.3(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1)
       nanostores: 1.0.1
 
-  '@wallet-ui/react@1.1.0-canary-20250415034938(fastestsmallesttextencoderdecoder@1.0.22)(gill@0.8.2(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)':
+  '@wallet-ui/react@1.1.0-canary-20250415034938(fastestsmallesttextencoderdecoder@1.0.22)(gill@0.8.3(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)':
     dependencies:
       '@nanostores/react': 1.0.0(nanostores@1.0.1)(react@19.1.0)
       '@solana/react': 2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(react@19.1.0)(typescript@5.8.3)
       '@solana/wallet-standard-features': 1.3.0
       '@wallet-standard/core': 1.1.1
       '@wallet-standard/react': 1.0.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      '@wallet-ui/core': 1.1.0-canary-20250415034938(gill@0.8.2(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1))
+      '@wallet-ui/core': 1.1.0-canary-20250415034938(gill@0.8.3(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1))
       '@zag-js/dialog': 1.9.3
       '@zag-js/menu': 1.9.3
       '@zag-js/react': 1.9.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      gill: 0.8.2(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1)
+      gill: 0.8.3(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1)
       nanostores: 1.0.1
       react: 19.1.0
     transitivePeerDependencies:
@@ -4439,7 +4460,10 @@ snapshots:
       has-property-descriptors: 1.0.2
       object-keys: 1.1.1
 
-  detect-libc@2.0.3: {}
+  detect-libc@2.0.3:
+    optional: true
+
+  detect-libc@2.0.4: {}
 
   doctrine@2.1.0:
     dependencies:
@@ -4893,7 +4917,7 @@ snapshots:
     dependencies:
       resolve-pkg-maps: 1.0.0
 
-  gill@0.8.2(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1):
+  gill@0.8.3(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1):
     dependencies:
       '@solana-program/address-lookup-table': 0.7.0(@solana/kit@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1))
       '@solana-program/compute-budget': 0.7.0(@solana/kit@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1))
@@ -5172,7 +5196,7 @@ snapshots:
 
   lightningcss@1.29.2:
     dependencies:
-      detect-libc: 2.0.3
+      detect-libc: 2.0.4
     optionalDependencies:
       lightningcss-darwin-arm64: 1.29.2
       lightningcss-darwin-x64: 1.29.2
@@ -5661,9 +5685,9 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  tailwindcss@4.0.15: {}
-
   tailwindcss@4.1.4: {}
+
+  tailwindcss@4.1.5: {}
 
   tapable@2.2.1: {}
 
