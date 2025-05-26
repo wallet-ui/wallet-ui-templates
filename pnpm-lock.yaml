@@ -15,17 +15,17 @@ importers:
   templates/template-next-tailwind:
     dependencies:
       '@tanstack/react-query':
-        specifier: ^5.74.3
-        version: 5.74.3(react@19.1.0)
+        specifier: ^5.77.1
+        version: 5.77.1(react@19.1.0)
       '@wallet-ui/react':
         specifier: canary
-        version: 1.1.0-canary-20250415034938(fastestsmallesttextencoderdecoder@1.0.22)(gill@0.8.2(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
+        version: 1.1.0-canary-20250510002117(fastestsmallesttextencoderdecoder@1.0.22)(gill@0.9.0(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
       '@wallet-ui/tailwind':
         specifier: canary
-        version: 1.1.0-canary-20250415034938(tailwindcss@4.1.4)
+        version: 1.1.0-canary-20250510002117(tailwindcss@4.1.4)
       gill:
         specifier: latest
-        version: 0.8.2(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1)
+        version: 0.9.0(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1)
       next:
         specifier: 15.3.0
         version: 15.3.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -76,17 +76,17 @@ importers:
         specifier: ^4.1.4
         version: 4.1.4(vite@6.2.6(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2))
       '@tanstack/react-query':
-        specifier: ^5.74.3
-        version: 5.74.3(react@19.1.0)
+        specifier: ^5.77.1
+        version: 5.77.1(react@19.1.0)
       '@wallet-ui/react':
         specifier: canary
-        version: 1.1.0-canary-20250415034938(fastestsmallesttextencoderdecoder@1.0.22)(gill@0.8.2(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
+        version: 1.1.0-canary-20250510002117(fastestsmallesttextencoderdecoder@1.0.22)(gill@0.9.0(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)
       '@wallet-ui/tailwind':
         specifier: canary
-        version: 1.1.0-canary-20250415034938(tailwindcss@4.1.4)
+        version: 1.1.0-canary-20250510002117(tailwindcss@4.1.4)
       gill:
         specifier: latest
-        version: 0.8.2(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1)
+        version: 0.9.0(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1)
       react:
         specifier: ^19.1.0
         version: 19.1.0
@@ -430,8 +430,8 @@ packages:
     resolution: {integrity: sha512-JubJ5B2pJ4k4yGxaNLdbjrnk9d/iDz6/q8wOilpIowd6PJPgaxCuHBnBszq7Ce2TyMrywm5r4PnKm6V3iiZF+g==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@floating-ui/core@1.6.9':
-    resolution: {integrity: sha512-uMXCuQ3BItDUbAMhIXw7UPXRfAlOAvZzdK9BWpE60MCn+Svt3aLn9jsPTi/WNGlRUu2uI0v5S7JiIUsbsvh3fw==}
+  '@floating-ui/core@1.7.0':
+    resolution: {integrity: sha512-FRdBLykrPPA6P76GGGqlex/e7fbe0F1ykgxHYNXQsH/iTEtjMj/f9bpY5oQqbjt5VgZvgz/uKXbGuROijh3VLA==}
 
   '@floating-ui/dom@1.6.13':
     resolution: {integrity: sha512-umqzocjDgNRGTuO7Q8CU32dkHkECqI8ZdMZ5Swb6QAM0t5rnlrN3lGo1hdpscRd3WS8T6DKYK4ephgIH9iRh3w==}
@@ -1195,11 +1195,11 @@ packages:
     peerDependencies:
       vite: ^5.2.0 || ^6
 
-  '@tanstack/query-core@5.74.3':
-    resolution: {integrity: sha512-Mqk+5o3qTuAiZML248XpNH8r2cOzl15+LTbUsZQEwvSvn1GU4VQhvqzAbil36p+MBxpr/58oBSnRzhrBevDhfg==}
+  '@tanstack/query-core@5.77.1':
+    resolution: {integrity: sha512-nfxVhy4UynChMFfN4NxwI8pktV9R3Zt/ROxOAe6pdOf8CigDLn26p+ex1YW5uien26BBICLmN0dTvIELHCs5vw==}
 
-  '@tanstack/react-query@5.74.3':
-    resolution: {integrity: sha512-QrycUn0wxjVPzITvQvOxFRdhlAwIoOQSuav7qWD4SWCoKCdLbyRZ2vji2GuBq/glaxbF4wBx3fqcYRDOt8KDTA==}
+  '@tanstack/react-query@5.77.1':
+    resolution: {integrity: sha512-qBwpxFg0+MZF0fICQwgvzwrVbcs7TdQlLyEd1f1dN83oeIALofCIAJHV7sPWu+BCS5tcXkG5CvOuf7yla8GYqQ==}
     peerDependencies:
       react: ^18 || ^19
 
@@ -1409,75 +1409,75 @@ packages:
     resolution: {integrity: sha512-Gt8TnSlDZpAl+RWOOAB/kuvC7RpcdWAlFbHNoi4gsXsfaWa1QCT6LBcfIYTPdOZC9OVZUDwqGuGAcqZejDmHjg==}
     engines: {node: '>=16'}
 
-  '@wallet-ui/core@1.1.0-canary-20250415034938':
-    resolution: {integrity: sha512-SWGyeG/Hbt/2IQMzGG5OMSrLaktnSshHpMWfKlYMAfTZwl2sup/5U5p4uS1BUXLfWjslG97WM+6Jsoay9skWoQ==}
+  '@wallet-ui/core@1.1.0-canary-20250510002117':
+    resolution: {integrity: sha512-OKj1dw6LIrpjAZ2ePdcTZ6xdXwo5jke6AW1LURcTHD+6ugSHeW55mI+tn8bQ5m5uyx6DLObErc3eR5HTHyuDow==}
     engines: {node: '>=20.18.0'}
     peerDependencies:
       gill: ^0.8.0
 
-  '@wallet-ui/react@1.1.0-canary-20250415034938':
-    resolution: {integrity: sha512-OdUcy11Wxmqh3Lv2UawyF95XO+dXs/4j4kb5OumlMpCmyVG6IAwwTkIpXyN2BO6VQjUereGvJILeqYW1q/N1WA==}
+  '@wallet-ui/react@1.1.0-canary-20250510002117':
+    resolution: {integrity: sha512-bDu+mecbF27d1MnjjVqwBTvHtiAXSHbIgeSRbdO0iuiG98oxbK3E5unOGFUtfwatZBp6XS4wOCmJPnTzdmg2kQ==}
     engines: {node: '>=20.18.0'}
     peerDependencies:
       gill: ^0.8.0
       react: '>=18'
 
-  '@wallet-ui/tailwind@1.1.0-canary-20250415034938':
-    resolution: {integrity: sha512-8TBIWzMcdL+mD3tpgYOyYUeQ2aPIZvQ7F1Hoo62G6v5BmqLBEnrtuZOGtNl2gxqIjwIaZTR96MUbdQypBgG0oA==}
+  '@wallet-ui/tailwind@1.1.0-canary-20250510002117':
+    resolution: {integrity: sha512-5QorDTRfMYAdRXRp8DpRC6sJELLAiEriYnqkqwRIRZsNcZgiezBdIScn41HfOY8xXb9nc92SY5dGXz3AFxB0ng==}
     engines: {node: '>=20.18.0'}
     peerDependencies:
-      tailwindcss: ^4.0.14
+      tailwindcss: ^4.1.5
 
-  '@zag-js/anatomy@1.9.3':
-    resolution: {integrity: sha512-tXVdiz5uilufN2UdH3IDSYUwygN7iE38AmCSJCgvXnb0HSTzGPH+O7bJBPSTZ/eSEzr+Zf9QPyEKK+1derhmtA==}
+  '@zag-js/anatomy@1.12.0':
+    resolution: {integrity: sha512-BpnD2qh+shANl127hin9gfOmiHnUaL0whgbBGL6KMuurFg+WPtOBMTxAtbhSRa3524cu61GBkgETH4VAg1xS7w==}
 
-  '@zag-js/aria-hidden@1.9.3':
-    resolution: {integrity: sha512-YyrY9hc0JN+Z3F3SN2MTLMXreq6v03tW+rbUgRbzA3a6ZGnDwC/42bBjB3GRgIQoRRtFG/FvJ09rg50LwE/gAA==}
+  '@zag-js/aria-hidden@1.12.0':
+    resolution: {integrity: sha512-YQkGo49bPzjMWTPbnuqGMDDemmppVk8w6QlF+Gygurp2gfeCQngj+2Oz6ZCzvSNIFXjRAL6i31O8BolfV/aLPg==}
 
-  '@zag-js/core@1.9.3':
-    resolution: {integrity: sha512-uoExdEt6p02kO5Ev8UYHsXZ6nDwjK3+aF6k0SNnix/CBGY85cX2VpuGXvGmCbGjSRiswcg5ZC9Wz37RIB/6Y1A==}
+  '@zag-js/core@1.12.0':
+    resolution: {integrity: sha512-GIDXIgTDHQZCnzKEhi+VMEvcJBsloHQNSmBRxZFllPh7htYGijwK8CrDQSzQPrGW074aR2pzu/RhdyqCUGQJyQ==}
 
-  '@zag-js/dialog@1.9.3':
-    resolution: {integrity: sha512-5kuJ/GBV/XrEgrdakHaHFYSv7fU7GIM1EZC61TnJMkjqP7VxHB/rMVWxANMghu/ouo70PO3zGyMNaNpuqYKpag==}
+  '@zag-js/dialog@1.12.0':
+    resolution: {integrity: sha512-l1HYpIR0Puz+L7i+Di4DWIJbeJamse5lFb3SNyYFMkZHT6zPn/ylQhcsmB13eFWnveVGoOp8+WT4XVRw6Ff1Tg==}
 
-  '@zag-js/dismissable@1.9.3':
-    resolution: {integrity: sha512-xTlxUXt2GeZFgDFo+TN/ZxbJAcLYmX7O783x8CWeCpm/NhRozy/sNYwL+ERXc0i2Dq+y/Da8neFy4cOYTL6QfQ==}
+  '@zag-js/dismissable@1.12.0':
+    resolution: {integrity: sha512-YXXzaCUPykfzDQUK5TTOShTioZbUh/tkZIA+uRUZK18qvEI8fmGrLaVHyD3Z0smtA0KWW2O5mC2v8lwq9DB3Lw==}
 
-  '@zag-js/dom-query@1.9.3':
-    resolution: {integrity: sha512-5KLP5+zsrjIchyu4oztw51TqIwgAPLYynzdw/go/RcJ3nie1qu9cgBKgSuw67YotQAm5ZPEUKbDZjBAW/5aZ3w==}
+  '@zag-js/dom-query@1.12.0':
+    resolution: {integrity: sha512-3fw4+kyFn+K+ESBSG7uhvxgOAJcB+WLYsMrktgK4SUC1ukq3wDKF4oAP+uhXA6OYdVw2T5ZwLU0aY37q94hC2A==}
 
-  '@zag-js/focus-trap@1.9.3':
-    resolution: {integrity: sha512-mg0c0L9VepFJMf5y25qiuku9kLqGAYxL8zPZETLIKCNZRc3AMBUvIeBSZx9lQ0zdHSdVXUFTinP0Per/d8pvbw==}
+  '@zag-js/focus-trap@1.12.0':
+    resolution: {integrity: sha512-T8eNgWDFcSf/oyut0kG3zYji3CqH2GtnivpNSeDsiNdwJ2bHXgeC65HqUExESClBTJz0W74AatruPvFzEhxDxg==}
 
-  '@zag-js/interact-outside@1.9.3':
-    resolution: {integrity: sha512-YljmM/SuuBmG043lO5fYmMmwEXdjlGQRqwgQB+FbDFkAyyLKwqj10cqeEtO5kIxrtqZdEXh4S9gB8PxmJBxLUg==}
+  '@zag-js/interact-outside@1.12.0':
+    resolution: {integrity: sha512-lcYo84syK3eF0MYESpMBQsfxT4+uzbaA8izZ0HvIC3kSCXLAaDZNagxPcRoB2yaTvWrn3FUw3YmJHKBOW7Vs9w==}
 
-  '@zag-js/menu@1.9.3':
-    resolution: {integrity: sha512-KRCjD+L9m0DwoPL2dWvmVXL2zKmO/HQfCANU2gp5qNMkh2JmrKnSoGbS6BXtWDXp4tfW0SMkSZRRxdfgBvc74w==}
+  '@zag-js/menu@1.12.0':
+    resolution: {integrity: sha512-ciKCeQ1heLGt4RcyhB5f9GQB7CE1rP9Zfwp5oHX9FC5rq4nyneI0qhXEYYklE0P9z7+Z6EAH8FyvLORj5j/SpA==}
 
-  '@zag-js/popper@1.9.3':
-    resolution: {integrity: sha512-gTeyKPcY3jWiPzRxn1z8FiYHeSF6/aLwgfz46NeqEaH4wkpJ0CmXl7Yq/EBzNHxK7oYTyJ72euiCmBTaRpXupw==}
+  '@zag-js/popper@1.12.0':
+    resolution: {integrity: sha512-YVdQHdYT32OtIeYmOBpdhhDoZa1aFQA5PrhSMAX9gtEnDIWg3m4bwdwC0Fs7G++zguHjgJ6ve1/QxTs6lHnC7Q==}
 
-  '@zag-js/react@1.9.3':
-    resolution: {integrity: sha512-ZgrRKec1Z0Y0CVYD2Y3/Z0ZKSRpfaSC5J2csGirs+H/acDFlKEG6loTXAV8Zdq3RXmX4Wo1Jtbqzw+FI8vIOUA==}
+  '@zag-js/react@1.12.0':
+    resolution: {integrity: sha512-cipenUT8mpF+fNv7gGpnLEMuu6cHHGhKSlrBhPAHv8JABIlsog8TGifz/xTSn8WIbcg0e+LEhfEZG5LRff6dZw==}
     peerDependencies:
       react: '>=18.0.0'
       react-dom: '>=18.0.0'
 
-  '@zag-js/rect-utils@1.9.3':
-    resolution: {integrity: sha512-Oe0pgEFWWghPxVI4R15MvgBDL8jVqx1qeA+RN9S6sgGTmU3oeaeNVp6FjvyFZjxrrxnBK7rb+HF8LwuLNv/C4Q==}
+  '@zag-js/rect-utils@1.12.0':
+    resolution: {integrity: sha512-rREWLVbXV2Sy7Kh+TBuLST3QLUNKi+lYZcyuulIV5X3aEEMfNKvB4svdZonfkPYA5uz1MGRYZoM/K3LY77EEVw==}
 
-  '@zag-js/remove-scroll@1.9.3':
-    resolution: {integrity: sha512-zXBx/4yyIfkLgAVUB8hfz/1QqFMtAGB+O26y37klNqldrdv87yKB/hih1hu4NnFUe5HRcBzkW6UkNCPOB6Af+Q==}
+  '@zag-js/remove-scroll@1.12.0':
+    resolution: {integrity: sha512-a/6NKblhUfNk8GzLPC2sB2nFXnMhTDysDj6T7wkWsYlPYi2IIX8NwbRl0tSoFoe5w1n0o0g4oe4SDViYOFoBUg==}
 
-  '@zag-js/store@1.9.3':
-    resolution: {integrity: sha512-aIzizEB0UF8MLA9WXftzudVnjQbPnc6xX0j/rqJp3QrUoy+v00JL7Zdj/gbiEkpNsswnYvLJobaFonEU6uQc6w==}
+  '@zag-js/store@1.12.0':
+    resolution: {integrity: sha512-AW+EJI1reNzWDEaH/LHnjBFZyLOGJNkf+GYEJ8treRJZXEVIaIjHZtSKQZrFJKAM8JIkrb08vawS/lj1izlimg==}
 
-  '@zag-js/types@1.9.3':
-    resolution: {integrity: sha512-WEvGqDF0C8u3tIUUD9rtqxx8mOO19Om18AoGwNcWfJ0CEHMNKrcFs6KibU2Xcc5SLJIAIPcPUrhjjTX2XquBXw==}
+  '@zag-js/types@1.12.0':
+    resolution: {integrity: sha512-qewKPnURQ9v4BKL0zFrqPIkC77areamYBkO2+DRet2U2WYofrOf4q7T6qIOcF4lLPYvCOv9LnYuw4pAlHyqcgA==}
 
-  '@zag-js/utils@1.9.3':
-    resolution: {integrity: sha512-sHqgs/W5MqawhY9V+tR4obYB24TapCvf2Ww3+hqibu+CCjfxM2dxE6qB4F/MbrNH9b0IcPx1oKvsKLz4Ej0ZuQ==}
+  '@zag-js/utils@1.12.0':
+    resolution: {integrity: sha512-PapS6VDeQtlWyZg3gC4pIY0++2OCAzqrnlRiB7IhEyOYsqi5MiAs+TKVDFXU+eUM77aR8pgtXo10yvdnNw6b+A==}
 
   acorn-jsx@5.3.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
@@ -1960,8 +1960,8 @@ packages:
   get-tsconfig@4.10.0:
     resolution: {integrity: sha512-kGzZ3LWWQcGIAmg6iWvXn0ei6WDtV26wzHRMwDSzmAbcXrTEXxHy6IehI6/4eT6VRKyMP1eF1VqwrVUmE/LR7A==}
 
-  gill@0.8.2:
-    resolution: {integrity: sha512-256JYJ3tRi0PO+2/1+pn9qT3Ph8FpG5IRqyLsIfaxV75XDvo4WR5DzgV/wPfWhfXg55Xpw3ThO5kwwY6RcgNXQ==}
+  gill@0.9.0:
+    resolution: {integrity: sha512-PQzwZI83mUoUJs9hoUNjzyQZb8+NyeFHwuF3SnaZNshi8YzRrgqgHSwmjOkIkqD/6ukyRMivq7XW704tPVvVAQ==}
     engines: {node: '>=20.18.0'}
     peerDependencies:
       typescript: '>=5'
@@ -2523,6 +2523,7 @@ packages:
 
   rspack-resolver@1.2.2:
     resolution: {integrity: sha512-Fwc19jMBA3g+fxDJH2B4WxwZjE0VaaOL7OX/A4Wn5Zv7bOD/vyPZhzXfaO73Xc2GAlfi96g5fGUa378WbIGfFw==}
+    deprecated: Please migrate to the brand new `@rspack/resolver` or `unrs-resolver` instead
 
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
@@ -3086,13 +3087,13 @@ snapshots:
       '@eslint/core': 0.12.0
       levn: 0.4.1
 
-  '@floating-ui/core@1.6.9':
+  '@floating-ui/core@1.7.0':
     dependencies:
       '@floating-ui/utils': 0.2.9
 
   '@floating-ui/dom@1.6.13':
     dependencies:
-      '@floating-ui/core': 1.6.9
+      '@floating-ui/core': 1.7.0
       '@floating-ui/utils': 0.2.9
 
   '@floating-ui/utils@0.2.9': {}
@@ -3843,11 +3844,11 @@ snapshots:
       tailwindcss: 4.1.4
       vite: 6.2.6(@types/node@22.14.1)(jiti@2.4.2)(lightningcss@1.29.2)
 
-  '@tanstack/query-core@5.74.3': {}
+  '@tanstack/query-core@5.77.1': {}
 
-  '@tanstack/react-query@5.74.3(react@19.1.0)':
+  '@tanstack/react-query@5.77.1(react@19.1.0)':
     dependencies:
-      '@tanstack/query-core': 5.74.3
+      '@tanstack/query-core': 5.77.1
       react: 19.1.0
 
   '@tybys/wasm-util@0.9.0':
@@ -4098,24 +4099,24 @@ snapshots:
     dependencies:
       '@wallet-standard/base': 1.1.0
 
-  '@wallet-ui/core@1.1.0-canary-20250415034938(gill@0.8.2(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1))':
+  '@wallet-ui/core@1.1.0-canary-20250510002117(gill@0.9.0(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1))':
     dependencies:
       '@nanostores/persistent': 1.0.0(nanostores@1.0.1)
-      gill: 0.8.2(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1)
+      gill: 0.9.0(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1)
       nanostores: 1.0.1
 
-  '@wallet-ui/react@1.1.0-canary-20250415034938(fastestsmallesttextencoderdecoder@1.0.22)(gill@0.8.2(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)':
+  '@wallet-ui/react@1.1.0-canary-20250510002117(fastestsmallesttextencoderdecoder@1.0.22)(gill@0.9.0(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1))(react-dom@19.1.0(react@19.1.0))(react@19.1.0)(typescript@5.8.3)':
     dependencies:
       '@nanostores/react': 1.0.0(nanostores@1.0.1)(react@19.1.0)
       '@solana/react': 2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(react@19.1.0)(typescript@5.8.3)
       '@solana/wallet-standard-features': 1.3.0
       '@wallet-standard/core': 1.1.1
       '@wallet-standard/react': 1.0.1(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      '@wallet-ui/core': 1.1.0-canary-20250415034938(gill@0.8.2(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1))
-      '@zag-js/dialog': 1.9.3
-      '@zag-js/menu': 1.9.3
-      '@zag-js/react': 1.9.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      gill: 0.8.2(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1)
+      '@wallet-ui/core': 1.1.0-canary-20250510002117(gill@0.9.0(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1))
+      '@zag-js/dialog': 1.12.0
+      '@zag-js/menu': 1.12.0
+      '@zag-js/react': 1.12.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      gill: 0.9.0(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1)
       nanostores: 1.0.1
       react: 19.1.0
     transitivePeerDependencies:
@@ -4123,91 +4124,91 @@ snapshots:
       - react-dom
       - typescript
 
-  '@wallet-ui/tailwind@1.1.0-canary-20250415034938(tailwindcss@4.1.4)':
+  '@wallet-ui/tailwind@1.1.0-canary-20250510002117(tailwindcss@4.1.4)':
     dependencies:
       tailwindcss: 4.1.4
 
-  '@zag-js/anatomy@1.9.3': {}
+  '@zag-js/anatomy@1.12.0': {}
 
-  '@zag-js/aria-hidden@1.9.3': {}
+  '@zag-js/aria-hidden@1.12.0': {}
 
-  '@zag-js/core@1.9.3':
+  '@zag-js/core@1.12.0':
     dependencies:
-      '@zag-js/dom-query': 1.9.3
-      '@zag-js/utils': 1.9.3
+      '@zag-js/dom-query': 1.12.0
+      '@zag-js/utils': 1.12.0
 
-  '@zag-js/dialog@1.9.3':
+  '@zag-js/dialog@1.12.0':
     dependencies:
-      '@zag-js/anatomy': 1.9.3
-      '@zag-js/aria-hidden': 1.9.3
-      '@zag-js/core': 1.9.3
-      '@zag-js/dismissable': 1.9.3
-      '@zag-js/dom-query': 1.9.3
-      '@zag-js/focus-trap': 1.9.3
-      '@zag-js/remove-scroll': 1.9.3
-      '@zag-js/types': 1.9.3
-      '@zag-js/utils': 1.9.3
+      '@zag-js/anatomy': 1.12.0
+      '@zag-js/aria-hidden': 1.12.0
+      '@zag-js/core': 1.12.0
+      '@zag-js/dismissable': 1.12.0
+      '@zag-js/dom-query': 1.12.0
+      '@zag-js/focus-trap': 1.12.0
+      '@zag-js/remove-scroll': 1.12.0
+      '@zag-js/types': 1.12.0
+      '@zag-js/utils': 1.12.0
 
-  '@zag-js/dismissable@1.9.3':
+  '@zag-js/dismissable@1.12.0':
     dependencies:
-      '@zag-js/dom-query': 1.9.3
-      '@zag-js/interact-outside': 1.9.3
-      '@zag-js/utils': 1.9.3
+      '@zag-js/dom-query': 1.12.0
+      '@zag-js/interact-outside': 1.12.0
+      '@zag-js/utils': 1.12.0
 
-  '@zag-js/dom-query@1.9.3':
+  '@zag-js/dom-query@1.12.0':
     dependencies:
-      '@zag-js/types': 1.9.3
+      '@zag-js/types': 1.12.0
 
-  '@zag-js/focus-trap@1.9.3':
+  '@zag-js/focus-trap@1.12.0':
     dependencies:
-      '@zag-js/dom-query': 1.9.3
+      '@zag-js/dom-query': 1.12.0
 
-  '@zag-js/interact-outside@1.9.3':
+  '@zag-js/interact-outside@1.12.0':
     dependencies:
-      '@zag-js/dom-query': 1.9.3
-      '@zag-js/utils': 1.9.3
+      '@zag-js/dom-query': 1.12.0
+      '@zag-js/utils': 1.12.0
 
-  '@zag-js/menu@1.9.3':
+  '@zag-js/menu@1.12.0':
     dependencies:
-      '@zag-js/anatomy': 1.9.3
-      '@zag-js/core': 1.9.3
-      '@zag-js/dismissable': 1.9.3
-      '@zag-js/dom-query': 1.9.3
-      '@zag-js/popper': 1.9.3
-      '@zag-js/rect-utils': 1.9.3
-      '@zag-js/types': 1.9.3
-      '@zag-js/utils': 1.9.3
+      '@zag-js/anatomy': 1.12.0
+      '@zag-js/core': 1.12.0
+      '@zag-js/dismissable': 1.12.0
+      '@zag-js/dom-query': 1.12.0
+      '@zag-js/popper': 1.12.0
+      '@zag-js/rect-utils': 1.12.0
+      '@zag-js/types': 1.12.0
+      '@zag-js/utils': 1.12.0
 
-  '@zag-js/popper@1.9.3':
+  '@zag-js/popper@1.12.0':
     dependencies:
       '@floating-ui/dom': 1.6.13
-      '@zag-js/dom-query': 1.9.3
-      '@zag-js/utils': 1.9.3
+      '@zag-js/dom-query': 1.12.0
+      '@zag-js/utils': 1.12.0
 
-  '@zag-js/react@1.9.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@zag-js/react@1.12.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
-      '@zag-js/core': 1.9.3
-      '@zag-js/store': 1.9.3
-      '@zag-js/types': 1.9.3
-      '@zag-js/utils': 1.9.3
+      '@zag-js/core': 1.12.0
+      '@zag-js/store': 1.12.0
+      '@zag-js/types': 1.12.0
+      '@zag-js/utils': 1.12.0
       react: 19.1.0
       react-dom: 19.1.0(react@19.1.0)
 
-  '@zag-js/rect-utils@1.9.3': {}
+  '@zag-js/rect-utils@1.12.0': {}
 
-  '@zag-js/remove-scroll@1.9.3':
+  '@zag-js/remove-scroll@1.12.0':
     dependencies:
-      '@zag-js/dom-query': 1.9.3
+      '@zag-js/dom-query': 1.12.0
 
-  '@zag-js/store@1.9.3':
+  '@zag-js/store@1.12.0':
     dependencies:
       proxy-compare: 3.0.1
 
-  '@zag-js/types@1.9.3':
+  '@zag-js/types@1.12.0':
     dependencies:
       csstype: 3.1.3
 
-  '@zag-js/utils@1.9.3': {}
+  '@zag-js/utils@1.12.0': {}
 
   acorn-jsx@5.3.2(acorn@8.14.1):
     dependencies:
@@ -4893,7 +4894,7 @@ snapshots:
     dependencies:
       resolve-pkg-maps: 1.0.0
 
-  gill@0.8.2(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1):
+  gill@0.9.0(@solana/sysvars@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1):
     dependencies:
       '@solana-program/address-lookup-table': 0.7.0(@solana/kit@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1))
       '@solana-program/compute-budget': 0.7.0(@solana/kit@2.1.0(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.8.3)(ws@8.18.1))
